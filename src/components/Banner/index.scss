@@ -1,0 +1,63 @@
+// Utilities
+@import '../../utilities/variables';
+
+.Banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+  background: url('https://pplware.sapo.pt/wp-content/uploads/2021/10/aquid-game.jpg');
+  background: url('https://revistakoreain.com.br/wp-content/uploads/2021/09/squid-game-imagem-destacada.jpg');
+  background-size: cover;
+  background-position-x: -100px;
+  position: relative;
+}
+.Banner__Info {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0),
+    rgba(0, 0, 0, 0.8),
+    rgba(255, 255, 255, 0)
+  );
+  width: 100%;
+  align-self: flex-end;
+}
+
+.Banner__Tags {
+  margin-top: 100px;
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+}
+
+.Banner__Tags span {
+  display: block;
+  font-size: 10px;
+  opacity: 0.3;
+}
+
+.Banner__Tags__Tag {
+  font-weight: bold;
+  font-size: 10px !important;
+  opacity: 0.8 !important;
+}
+
+.Banner__Buttons {
+  display: grid;
+  grid-auto-flow: column;
+  align-items: center;
+  height: 70px;
+}
+
+.Banner__Buttons__Button {
+  border: none;
+  font-weight: bold;
+  color: $white;
+  background-color: transparent;
+}
+
+.Banner__Buttons__Button:nth-child(2) {
+  background-color: $white;
+  color: $black;
+  height: 40px;
+}

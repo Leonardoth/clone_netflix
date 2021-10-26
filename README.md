@@ -8,3 +8,7 @@ Mobile First
 
 - React
 - Sass
+
+### Todo:
+
+- Change Icons for Footer, banner and List

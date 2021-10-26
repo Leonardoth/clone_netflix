@@ -1,0 +1,23 @@
+// Utilities
+@import '../../utilities/variables';
+
+.List__Title {
+  text-align: left;
+}
+.List__Titles {
+  display: flex;
+  overflow-x: scroll;
+  gap: 5px;
+}
+
+.List__Titles::-webkit-scrollbar {
+  display: none;
+}
+
+.List {
+  margin-top: 20px;
+}
+
+.List:last-child {
+  margin-bottom: 80px;
+}
