@@ -3,6 +3,8 @@ import './index.scss';
 
 // Icons
 import PlayIcon from '../../assets/svgs/play';
+import InfoIcon from '../../assets/svgs/info';
+import PlusIcon from '../../assets/svgs/plus';
 
 function Banner() {
   return (
@@ -18,11 +20,17 @@ function Banner() {
           <span className='Banner__Tags__Tag'>Competição</span>
         </div>
         <div className='Banner__Buttons'>
-          <button className='Banner__Buttons__Button'>+ Minha Lista</button>
+          <button className='Banner__Buttons__Button'>
+            <PlusIcon className='Banner__Buttons__Button__PlusIcon' /> Minha
+            Lista
+          </button>
           <button className='Banner__Buttons__Button'>
             <PlayIcon className='Banner__Buttons__Button__PlayIcon' /> Assistir
           </button>
-          <button className='Banner__Buttons__Button'>i Saiba Mais</button>
+          <button className='Banner__Buttons__Button'>
+            <InfoIcon className='Banner__Buttons__Button__InfoIcon' />
+            Saiba Mais
+          </button>
         </div>
       </div>
     </div>

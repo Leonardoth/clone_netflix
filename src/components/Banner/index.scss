@@ -50,6 +50,10 @@
 }
 
 .Banner__Buttons__Button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
   border: none;
   font-weight: bold;
   color: $white;
@@ -57,15 +61,21 @@
 }
 
 .Banner__Buttons__Button:nth-child(2) {
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
+  flex-direction: row;
   background-color: $white;
   color: $black;
   height: 40px;
 }
 
-.Banner__Buttons__Button__PlayIcon {
+.Banner__Buttons__Button__PlayIcon,
+.Banner__Buttons__Button__InfoIcon,
+.Banner__Buttons__Button__PlusIcon {
   width: 18px;
   height: 18px;
+}
+
+.Banner__Buttons__Button__InfoIcon,
+.Banner__Buttons__Button__PlusIcon {
+  stroke: white;
+  margin-bottom: 5px;
 }
