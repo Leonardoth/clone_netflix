@@ -15,7 +15,10 @@
 }
 
 .List {
-  margin-top: 20px;
+  margin-top: 10px;
+}
+.List + .List {
+  margin-top: 40px;
 }
 
 .List:last-child {

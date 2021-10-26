@@ -12,7 +12,7 @@ Mobile First
 ### Todo:
 
 - Change Icons for Footer, banner and List
+- Progress bar for shows
+- Cleanup unused assets/code
 
 ## Bugs:
-
-- Play button from shows overlaying footer!
