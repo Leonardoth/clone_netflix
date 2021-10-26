@@ -55,7 +55,7 @@
   align-items: center;
   justify-content: space-evenly;
   border: none;
-  font-weight: bold;
+  font-weight: regular;
   color: $white;
   background-color: transparent;
 }
@@ -65,6 +65,7 @@
   background-color: $white;
   color: $black;
   height: 40px;
+  font-weight: bold;
 }
 
 .Banner__Buttons__Button__PlayIcon,
