@@ -1,6 +1,6 @@
 My clone of the Netflix site
 
-## Methodology:
+## Approach:
 
 Mobile First
 
