@@ -2,6 +2,7 @@
 @import './utilities/variables';
 @import './utilities/reset';
 body {
+  height: 100%;
   background-color: rgba($black, 0.95);
   color: $white;
 }

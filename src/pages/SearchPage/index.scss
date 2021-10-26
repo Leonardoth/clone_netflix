@@ -1,0 +1,52 @@
+@import '../../utilities/variables';
+
+.Search {
+  position: fixed;
+  height: 100%;
+  display: grid;
+  justify-items: center;
+  flex-direction: column;
+}
+
+.Search__Bar {
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  width: 95%;
+  height: 40px;
+  background-color: rgba($grey, 0.5);
+  border-radius: 3px;
+}
+.Search__Bar__Icon {
+  stroke: rgba($white, 0.5);
+  fill: none;
+}
+
+.Search__Bar__Input {
+  width: 60%;
+  color: rgba($white, 0.9);
+  border: none;
+  background-color: transparent;
+  outline: none;
+}
+
+.Search__Content {
+  text-align: left;
+}
+
+.Search__Content__Filler {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+}
+
+.Search__Content__Filler {
+  font-weight: bold;
+}
+
+.Search__Content__Filler__p {
+  font-weight: lighter;
+  color: rgba($white, 0.7);
+  font-size: 14px;
+}

@@ -3,6 +3,9 @@ import { useState } from 'react';
 
 // Pages
 import Main from './pages/Main/Main';
+import SearchPage from './pages/SearchPage/SearchPage';
+
+// Components
 import Footer from './components/Footer/Footer';
 
 function App() {
@@ -11,7 +14,7 @@ function App() {
   function render(page) {
     switch (page) {
       case 'Search':
-        break;
+        return <SearchPage />;
       case 'Soon':
         break;
       case 'Downloads':
