@@ -3,6 +3,7 @@ import './index.scss';
 
 // Icon
 import SearchIcon from '../../assets/svgs/search';
+import MicrophoneIcon from '../../assets/svgs/microphone';
 
 function SearchPage() {
   return (
@@ -13,7 +14,7 @@ function SearchPage() {
           className='Search__Bar__Input'
           placeholder='Busque por série, filme, gênero, etc.'
         ></input>
-        <SearchIcon className='Search__Bar__Icon' />
+        <MicrophoneIcon className='Search__Bar__Icon Microphone' />
       </div>
       <div className='Search__Content'>
         <div className='Search__Content__Filler'>

@@ -1,6 +1,7 @@
 @import '../../utilities/variables';
 
 .Search {
+  padding-top: 15px;
   position: fixed;
   height: 100%;
   display: grid;
@@ -20,6 +21,11 @@
 .Search__Bar__Icon {
   stroke: rgba($white, 0.5);
   fill: none;
+}
+
+.Search__Bar__Icon.Microphone {
+  fill: rgba($white, 0.5);
+  stroke: none;
 }
 
 .Search__Bar__Input {
