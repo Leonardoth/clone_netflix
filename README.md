@@ -11,8 +11,10 @@ Mobile First
 
 ### Todo:
 
-- Change Icons for Footer, banner and List
 - Progress bar for shows
 - Cleanup unused assets/code
+- Banners be dinamically, get random banner from array, use it's tags/image, show mobile or full image dependig on device.
+
+- ~~Change Icons for Footer, banner and List~~
 
 ## Bugs:
