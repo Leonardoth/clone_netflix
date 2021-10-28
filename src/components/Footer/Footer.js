@@ -37,7 +37,7 @@ function Footer(props) {
         className={page === 'Downloads' ? 'active' : ''}
         onClick={() => setPage('Downloads')}
       >
-        <DownloadIcon className='Footer__Icon' />
+        <DownloadIcon className='Footer__Icon' fill='white' />
         Downloads
       </button>
       <button
