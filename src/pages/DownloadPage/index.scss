@@ -1,0 +1,45 @@
+// Utilities
+@import '../../utilities/variables';
+
+.DownloadPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 100vh;
+  color: $white;
+}
+
+.DownloadPage__DownloadIcon__Background {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  background-color: rgba($grey, 1);
+  border-radius: 100px;
+}
+
+.DownloadPage__DownloadIcon {
+  fill: $black;
+  width: 50%;
+  height: 50%;
+}
+
+.DownloadPage__Button {
+  padding: 8px 10px;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  font-weight: bold;
+  background-color: rgba($grey, 0.8);
+}
+
+.DownloadPage__Paragraph {
+  padding: 5px;
+  font-size: 18px;
+  color: rgba($white, 0.6);
+  width: 200px;
+  font-weight: normal;
+}
