@@ -2,17 +2,42 @@
 @import '../../utilities/variables';
 
 .Banner {
+  position: relative;
   display: flex;
+  height: 300px;
   align-items: center;
   justify-content: center;
-  height: 300px;
-  background: url('https://pplware.sapo.pt/wp-content/uploads/2021/10/aquid-game.jpg');
-  background: url('https://revistakoreain.com.br/wp-content/uploads/2021/09/squid-game-imagem-destacada.jpg');
-  background-size: cover;
-  background-position-x: -100px;
   position: relative;
 }
+.Banner__Desktop,
+.Banner__Mobile {
+  height: 100% !important;
+  width: 100% !important;
+  visibility: hidden;
+  isolation: isolate;
+  position: absolute;
+  object-fit: cover;
+  z-index: 1;
+}
+.Banner__Mobile {
+  visibility: visible;
+}
+
+@media screen and (min-width: 700px) {
+  .Banner {
+    height: 500px;
+  }
+  .Banner__Mobile {
+    visibility: hidden;
+  }
+  .Banner__Desktop {
+    visibility: visible;
+    object-fit: cover;
+  }
+}
+
 .Banner__Info {
+  position: relative;
   background: linear-gradient(
     180deg,
     rgba(255, 255, 255, 0),
@@ -21,11 +46,13 @@
   );
   width: 100%;
   align-self: flex-end;
+  z-index: 1;
 }
 
 .Banner__Tags {
   margin-top: 100px;
-  display: flex;
+  display: grid;
+  grid-auto-flow: column;
   gap: 5px;
   justify-content: center;
 }
@@ -40,6 +67,11 @@
   font-weight: bold;
   font-size: 10px !important;
   opacity: 0.8 !important;
+}
+
+.Banner__Tags__Tag:not(:first-child)::before {
+  content: '●';
+  padding: 20px;
 }
 
 .Banner__Buttons {

@@ -6,18 +6,17 @@ import PlayIcon from '../../assets/svgs/play';
 import InfoIcon from '../../assets/svgs/info';
 import PlusIcon from '../../assets/svgs/plus';
 
-function Banner() {
+function Banner(props) {
+  const { item } = props;
   return (
     <div className='Banner'>
+      <img className='Banner__Mobile' src={item.mobileImage} />
+      <img className='Banner__Desktop' src={item.image} />
       <div className='Banner__Info'>
         <div className='Banner__Tags'>
-          <span className='Banner__Tags__Tag'>Escandalosos</span>
-          <span>●</span>
-          <span className='Banner__Tags__Tag'>Cativante</span>
-          <span>●</span>
-          <span className='Banner__Tags__Tag'>Provocantes</span>
-          <span>●</span>
-          <span className='Banner__Tags__Tag'>Competição</span>
+          {item.tags.map(tag => {
+            return <span className='Banner__Tags__Tag'>{tag}</span>;
+          })}
         </div>
         <div className='Banner__Buttons'>
           <button className='Banner__Buttons__Button'>
