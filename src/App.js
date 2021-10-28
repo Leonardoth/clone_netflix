@@ -4,6 +4,7 @@ import { useState } from 'react';
 // Pages
 import Main from './pages/Main/Main';
 import SearchPage from './pages/SearchPage/SearchPage';
+import DownloadPage from './pages/DownloadPage/DownloadPage';
 
 // Components
 import Footer from './components/Footer/Footer';
@@ -18,7 +19,7 @@ function App() {
       case 'Soon':
         break;
       case 'Downloads':
-        break;
+        return <DownloadPage />;
       case 'More':
         break;
       default:
