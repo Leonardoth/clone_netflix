@@ -1,0 +1,30 @@
+.User {
+  width: 55px;
+  height: 60px;
+}
+
+.User__Image {
+  width: 100%;
+  border: 1px solid transparent;
+  border-radius: 1px;
+}
+
+.active .User__Image {
+  border: 2px solid white;
+}
+
+.User__Name {
+  display: block;
+  opacity: 0.4;
+}
+
+.active .User__Name {
+  opacity: 1;
+}
+
+.Users {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  padding: 20px;
+}

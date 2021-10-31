@@ -99,4 +99,49 @@ const banners = [
   },
 ];
 
-export { lists, banners };
+const users = [
+  {
+    name: 'Leo',
+    active: false,
+    avatar:
+      'http://www.glorian.com.br/wp-content/uploads/2014/01/leao-imposto-de-renda-300x300.jpg',
+  },
+  {
+    name: 'Leo',
+    active: false,
+    avatar:
+      'http://www.glorian.com.br/wp-content/uploads/2014/01/leao-imposto-de-renda-300x300.jpg',
+  },
+  {
+    name: 'Leo',
+    active: true,
+    avatar:
+      'http://www.glorian.com.br/wp-content/uploads/2014/01/leao-imposto-de-renda-300x300.jpg',
+  },
+  {
+    name: 'Leo',
+    active: false,
+    avatar:
+      'http://www.glorian.com.br/wp-content/uploads/2014/01/leao-imposto-de-renda-300x300.jpg',
+  },
+  {
+    name: 'Leo',
+    active: false,
+    avatar:
+      'http://www.glorian.com.br/wp-content/uploads/2014/01/leao-imposto-de-renda-300x300.jpg',
+  },
+];
+
+const notifications = [
+  {
+    title: 'Venom',
+    date: '24 de out',
+    image: 'https://br.web.img3.acsta.net/pictures/18/04/24/16/26/5909399.jpg',
+  },
+  {
+    title: 'Venom De Novo kkkkkk',
+    date: '24 de out',
+    image: 'https://br.web.img3.acsta.net/pictures/18/04/24/16/26/5909399.jpg',
+  },
+];
+export { lists, banners, users, notifications };

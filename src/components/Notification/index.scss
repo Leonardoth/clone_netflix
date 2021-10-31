@@ -1,0 +1,42 @@
+@import '../../utilities/variables';
+
+.Notification {
+  margin-top: 20px;
+  display: grid;
+  grid-template-areas:
+    'Image h4'
+    'Image title'
+    'Image date';
+  text-align: left;
+  justify-content: left;
+  gap: 0px 10px;
+}
+
+.Notification__News {
+  grid-area: h4;
+  color: rgba($white, 1);
+  margin-bottom: 5px;
+}
+
+.Notification__Image {
+  grid-area: Image;
+  width: 150px;
+  height: 70px;
+  object-fit: cover;
+}
+
+.Notification__Title,
+.Notification__Date {
+  display: block;
+  text-align: left;
+  margin-top: 5px;
+}
+.Notification__Title {
+  grid-area: title;
+  font-size: 16px;
+}
+
+.Notification__Date {
+  grid-area: date;
+  font-size: 14px;
+}
