@@ -11,6 +11,7 @@ Mobile First
 
 ### Todo:
 
+- Add icons for More page
 - Progress bar for shows
 - Cleanup unused assets/code
 - Banners be dinamically, get random banner from array, use it's tags/image, show mobile or full image dependig on device.
