@@ -11,6 +11,7 @@ Mobile First
 
 ### Todo:
 
+- Fix React Warnings
 - Add icons for More page
 - Progress bar for shows
 - Cleanup unused assets/code
