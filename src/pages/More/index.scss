@@ -8,7 +8,18 @@
   justify-content: flex-end;
   max-height: 100vh !important;
 }
-
+.More__Icon {
+  fill: rgba($grey, 1);
+}
+.EditIcon {
+  margin: 5px;
+  height: 14px;
+}
+.More__Section__Header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
 .More__Button {
   margin: 20px;
   display: block;
