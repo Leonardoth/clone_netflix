@@ -144,4 +144,22 @@ const notifications = [
     image: 'https://br.web.img3.acsta.net/pictures/18/04/24/16/26/5909399.jpg',
   },
 ];
-export { lists, banners, users, notifications };
+
+const soon = [
+  {
+    preview: '',
+    dateDescription: 'A temporada 2 estreia quarta-feira',
+    title: 'Sintonia',
+    description:
+      'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit, dignissimos!',
+    tags: ['Tag 1', 'Tag 2', 'Tag 3'],
+  },
+  {
+    preview: '',
+    dateDescription: 'A temporada 2 estreia quinta-feira',
+    title: 'Tava com meus mano',
+    description: 'Esse Vanderley...',
+    tags: ['Ideias Erradas', 'Suspense', 'Proposição', 'Coisinhas'],
+  },
+];
+export { lists, banners, users, notifications, soon };
