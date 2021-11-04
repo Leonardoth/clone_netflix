@@ -6,6 +6,7 @@ import Main from './pages/Main/Main';
 import SearchPage from './pages/SearchPage/SearchPage';
 import DownloadPage from './pages/DownloadPage/DownloadPage';
 import More from './pages/More/More';
+import Soon from './pages/Soon/Soon';
 
 // Components
 import Footer from './components/Footer/Footer';
@@ -18,7 +19,7 @@ function App() {
       case 'Search':
         return <SearchPage />;
       case 'Soon':
-        break;
+        return <Soon />;
       case 'Downloads':
         return <DownloadPage />;
       case 'More':
