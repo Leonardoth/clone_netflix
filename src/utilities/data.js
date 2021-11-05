@@ -101,47 +101,42 @@ const banners = [
 
 const users = [
   {
-    name: 'Leo',
+    name: 'Russo',
     active: false,
-    avatar:
-      'http://www.glorian.com.br/wp-content/uploads/2014/01/leao-imposto-de-renda-300x300.jpg',
+    avatar: 'https://picsum.photos/id/433/55/60',
   },
   {
-    name: 'Leo',
+    name: 'jj',
     active: false,
-    avatar:
-      'http://www.glorian.com.br/wp-content/uploads/2014/01/leao-imposto-de-renda-300x300.jpg',
+    avatar: 'https://picsum.photos/id/447/55/60',
   },
   {
     name: 'Leo',
     active: true,
-    avatar:
-      'http://www.glorian.com.br/wp-content/uploads/2014/01/leao-imposto-de-renda-300x300.jpg',
+    avatar: 'https://picsum.photos/id/452/55/60',
   },
   {
-    name: 'Leo',
+    name: 'Gato',
     active: false,
-    avatar:
-      'http://www.glorian.com.br/wp-content/uploads/2014/01/leao-imposto-de-renda-300x300.jpg',
+    avatar: 'https://picsum.photos/id/40/55/60',
   },
   {
-    name: 'Leo',
+    name: 'Tokyo',
     active: false,
-    avatar:
-      'http://www.glorian.com.br/wp-content/uploads/2014/01/leao-imposto-de-renda-300x300.jpg',
+    avatar: 'https://picsum.photos/id/274/55/60',
   },
 ];
 
 const notifications = [
   {
-    title: 'Venom',
-    date: '24 de out',
-    image: 'https://br.web.img3.acsta.net/pictures/18/04/24/16/26/5909399.jpg',
+    title: 'Madureira',
+    date: '25 de ago',
+    image: 'https://picsum.photos/id/274/150/70',
   },
   {
-    title: 'Venom De Novo kkkkkk',
-    date: '24 de out',
-    image: 'https://br.web.img3.acsta.net/pictures/18/04/24/16/26/5909399.jpg',
+    title: 'Sem Tempo Irmão',
+    date: '23 de out',
+    image: 'https://picsum.photos/id/357/150/70',
   },
 ];
 
