@@ -85,17 +85,19 @@ const lists = [
 
 const banners = [
   {
-    tags: ['Cativante', 'Divertido', 'Engraçado', 'Infantil'],
-    image:
-      'https://images.ctfassets.net/4cd45et68cgf/3BJQrujAXLeXXsWXnolmvB/28845a87ecb25a0609c2e9faec57736c/EN_SQdGame_Main_PlayGround_Horizontal_RGB_PRE.jpg',
-    mobileImage:
-      'https://revistakoreain.com.br/wp-content/uploads/2021/09/squid-game-imagem-destacada.jpg',
+    tags: ['Cativante', 'Divertido', 'Infantil'],
+    image: 'https://picsum.photos/1900/500',
+    mobileImage: 'https://picsum.photos/600/300',
   },
   {
     tags: ['Suspense', 'Drama'],
-    image: 'https://wallpaperaccess.com/full/2114487.jpg',
-    mobileImage:
-      'https://falauniversidades.com.br/mrf4u/statics/i/ps/cdn.falauniversidades.com.br/wp-content/uploads/2021/10/15113201/you-temporada-3.png',
+    image: 'https://picsum.photos/1900/500',
+    mobileImage: 'https://picsum.photos/600/300',
+  },
+  {
+    tags: ['Curioso', 'Triste'],
+    image: 'https://picsum.photos/1900/500',
+    mobileImage: 'https://picsum.photos/600/300',
   },
 ];
 
