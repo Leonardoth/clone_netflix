@@ -11,8 +11,9 @@
 }
 
 .Show__Image {
-  min-height: 155px;
+  height: 155px;
   width: 100%;
+  object-fit: cover;
 }
 
 .Show__PlayButton {
@@ -42,4 +43,14 @@
   width: 20px;
   height: 20px;
   transform: translateX(2.5px);
+}
+
+@media (min-width: 700px) {
+  .Show__Banner {
+    width: 220px;
+  }
+  .Show__Image {
+    height: 100px;
+    object-fit: fill;
+  }
 }
