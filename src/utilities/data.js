@@ -3,38 +3,52 @@ const lists = [
     title: 'Minha Lista',
     list: [
       {
-        image:
-          'https://br.web.img3.acsta.net/pictures/18/04/24/16/26/5909399.jpg',
+        image: 'https://picsum.photos/id/1/300/155',
         episode: '25',
         season: '1',
       },
       {
-        image:
-          'https://br.web.img3.acsta.net/pictures/18/04/24/16/26/5909399.jpg',
+        image: 'https://picsum.photos/id/23/300/155',
         episode: '25',
         season: '1',
       },
       {
-        image:
-          'https://br.web.img3.acsta.net/pictures/18/04/24/16/26/5909399.jpg',
+        image: 'https://picsum.photos/id/33/300/155',
         episode: '25',
         season: '1',
       },
       {
-        image:
-          'https://br.web.img3.acsta.net/pictures/18/04/24/16/26/5909399.jpg',
+        image: 'https://picsum.photos/id/43/300/155',
         episode: '25',
         season: '1',
       },
       {
-        image:
-          'https://br.web.img3.acsta.net/pictures/18/04/24/16/26/5909399.jpg',
+        image: 'https://picsum.photos/id/53/300/155',
         episode: '25',
         season: '1',
       },
       {
-        image:
-          'https://br.web.img3.acsta.net/pictures/18/04/24/16/26/5909399.jpg',
+        image: 'https://picsum.photos/id/63/300/155',
+        episode: '25',
+        season: '1',
+      },
+      {
+        image: 'https://picsum.photos/id/83/300/155',
+        episode: '25',
+        season: '1',
+      },
+      {
+        image: 'https://picsum.photos/id/93/300/155',
+        episode: '25',
+        season: '1',
+      },
+      {
+        image: 'https://picsum.photos/id/103/300/155',
+        episode: '25',
+        season: '1',
+      },
+      {
+        image: 'https://picsum.photos/id/113/300/155',
         episode: '25',
         season: '1',
       },
@@ -44,38 +58,37 @@ const lists = [
     title: 'Porque você assistiu Venom',
     list: [
       {
-        image:
-          'https://br.web.img3.acsta.net/pictures/18/04/24/16/26/5909399.jpg',
+        image: 'https://picsum.photos/id/1/300/155',
         episode: '25',
         season: '1',
       },
       {
-        image:
-          'https://br.web.img3.acsta.net/pictures/18/04/24/16/26/5909399.jpg',
+        image: 'https://picsum.photos/id/20/300/155',
         episode: '25',
         season: '1',
       },
       {
-        image:
-          'https://br.web.img3.acsta.net/pictures/18/04/24/16/26/5909399.jpg',
+        image: 'https://picsum.photos/id/30/300/155',
         episode: '25',
         season: '1',
       },
       {
-        image:
-          'https://br.web.img3.acsta.net/pictures/18/04/24/16/26/5909399.jpg',
+        image: 'https://picsum.photos/id/40/300/155',
         episode: '25',
         season: '1',
       },
       {
-        image:
-          'https://br.web.img3.acsta.net/pictures/18/04/24/16/26/5909399.jpg',
+        image: 'https://picsum.photos/id/50/300/155',
         episode: '25',
         season: '1',
       },
       {
-        image:
-          'https://br.web.img3.acsta.net/pictures/18/04/24/16/26/5909399.jpg',
+        image: 'https://picsum.photos/id/60/300/155',
+        episode: '25',
+        season: '1',
+      },
+      {
+        image: 'https://picsum.photos/id/70/300/155',
         episode: '25',
         season: '1',
       },
