@@ -11,17 +11,19 @@ Mobile First
 
 ### Todo:
 
+- Add Fonts
 - Fix React Warnings
 - Progress bar for shows
 - Cleanup unused assets/code
-- Banners be dinamically, get random banner from array, use it's tags/image, show mobile or full image dependig on device.
+- Use lorem Picsum for every image.
 - Get better icons, same stroke width, more uniform.
+- Banners be dinamically, get random banner from array, use it's tags/image, show mobile or full image dependig on device.
 
 - ~~Add icons for More page~~
-- ~~Change Icons for Footer, banner and List~~
-- ~Fix height/scrollable screen Soon~
+- ~~Fix height/scrollable screen Soon~~
 - ~~Add Soon to data, fill dynamically~~
 - ~~Fix spacing of ::before on Soon screen~~
+- ~~Change Icons for Footer, banner and List~~
 
 ## Bugs:
 
