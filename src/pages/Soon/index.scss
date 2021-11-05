@@ -1,0 +1,80 @@
+// Utilities
+@import '../../utilities/variables';
+
+.Soon {
+  overflow-y: scroll;
+  padding-bottom: 100px;
+}
+
+.Soon__Item {
+  margin-top: 5px;
+  text-align: left;
+  & + .Soon__Item {
+    margin-top: 70px;
+  }
+}
+.Soon__Preview {
+  width: 100%;
+  height: 200px;
+  border: none;
+  object-fit: cover;
+}
+
+.Soon__Date,
+.Soon__Button,
+.Soon__Item__Title,
+.Soon__Item__Description,
+.Soon__Item__Tags {
+  margin: 10px 10px;
+}
+
+.Soon__Date {
+  color: rgba($grey, 1);
+  display: inline-flex;
+  width: 35%;
+}
+
+.Soon__Button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: rgba($grey, 1);
+  border: none;
+  color: rgba($white, 1);
+  font-weight: bold;
+  padding: 5px 10px;
+}
+
+.Soon__NotificationIcon {
+  fill: rgba($white, 1);
+  height: 14px;
+}
+
+.Soon__Item__Title {
+  display: block;
+  margin-top: 20px;
+}
+
+.Soon__Item__Description {
+  display: block;
+  margin-top: 20px;
+  color: rgba($grey, 1);
+}
+
+.Soon__Item__Tags {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.Soon__Item__Tags__Span {
+  display: block;
+  font-size: 0.8rem;
+}
+
+.Soon__Item__Tags__Span:nth-of-type(2n) {
+  opacity: 0.55;
+  font-size: 0.6rem;
+  user-select: none;
+}
