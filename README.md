@@ -16,14 +16,17 @@ Mobile First
 - Fix React Warnings
 - Progress bar for shows
 - Cleanup unused assets/code
+- Hide Mobile bar on Desktop
 - Use lorem Picsum for every image.
-- Finish desktop lists (too small atm)
+
 - Get better icons, same stroke width, more uniform.
+- Fix not being able to scroll when hovering shows (Desktop)
 - Banners be dinamically, get random banner from array, use it's tags/image, show mobile or full image dependig on device.
 
 - ~~Add icons for More page~~
 - ~~Fix height/scrollable screen Soon~~
 - ~~Add Soon to data, fill dynamically~~
+- ~~Finish desktop lists (too small atm)~~
 - ~~Fix spacing of ::before on Soon screen~~
 - ~~Change Icons for Footer, banner and List~~
 
