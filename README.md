@@ -12,10 +12,12 @@ Mobile First
 ### Todo:
 
 - Add Fonts
+- Change Favicon
 - Fix React Warnings
 - Progress bar for shows
 - Cleanup unused assets/code
 - Use lorem Picsum for every image.
+- Finish desktop lists (too small atm)
 - Get better icons, same stroke width, more uniform.
 - Banners be dinamically, get random banner from array, use it's tags/image, show mobile or full image dependig on device.
 

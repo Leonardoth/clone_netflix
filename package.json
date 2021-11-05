@@ -1,7 +1,7 @@
 {
   "name": "clone_netflix",
   "version": "0.1.0",
-  "homepage": "http://leonardoth.github.io/clone-netflix",
+  "homepage": "https://leonardoth.github.io/clone_netflix/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
