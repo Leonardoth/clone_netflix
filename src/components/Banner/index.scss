@@ -50,28 +50,25 @@
 }
 
 .Banner__Tags {
+  margin: auto;
   margin-top: 100px;
-  display: grid;
-  grid-auto-flow: column;
-  gap: 5px;
-  justify-content: center;
-}
-
-.Banner__Tags span {
-  display: block;
-  font-size: 10px;
-  opacity: 0.3;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 80%;
 }
 
 .Banner__Tags__Tag {
+  display: block;
   font-weight: bold;
-  font-size: 10px !important;
+  font-size: 12px !important;
   opacity: 0.8 !important;
 }
 
-.Banner__Tags__Tag:not(:first-child)::before {
-  content: '●';
-  padding: 20px;
+.Banner__Tags__Tag:nth-of-type(2n) {
+  opacity: 0.4 !important;
+  font-size: 8px !important;
 }
 
 .Banner__Buttons {

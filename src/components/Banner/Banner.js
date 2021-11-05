@@ -8,14 +8,21 @@ import PlusIcon from '../../assets/svgs/plus';
 
 function Banner(props) {
   const { item } = props;
+  const newTags = [];
   return (
     <div className='Banner'>
       <img className='Banner__Mobile' src={item.mobileImage} />
       <img className='Banner__Desktop' src={item.image} />
       <div className='Banner__Info'>
         <div className='Banner__Tags'>
-          {item.tags.map(tag => {
-            return <span className='Banner__Tags__Tag'>{tag}</span>;
+          {item.tags.forEach((tag, index) => {
+            if (index !== 0) {
+              newTags.push('●');
+            }
+            newTags.push(tag);
+          })}
+          {newTags.map(item => {
+            return <span className='Banner__Tags__Tag'>{item}</span>;
           })}
         </div>
         <div className='Banner__Buttons'>
