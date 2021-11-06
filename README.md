@@ -44,3 +44,24 @@ Mobile First
   - Solution:
     - Creating a new array and inserting the separators, as a new item, without messing with the first array of tags.
     - Used a css selector nth-of-type(2n) to style them, to select every even element, that will always be a separator.
+
+- Problem: Using github pages with React Js
+
+  - Solution:
+
+    - Installed gh-pages (npm install gh-pages --save-dev)
+    - Added the lines (inside scripts):
+
+    ```
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+    ```
+
+    - Added the homepage (at the first level):
+
+    ```
+    "homepage": "https://leonardoth.github.io/{repository-name}/",
+    ```
+
+    - Ran "yarn deploy"
+    - Commited the changes and pushed to the repository, it automatically created a branch (gh-pages) and went online on the homepage specified.
