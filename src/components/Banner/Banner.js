@@ -35,7 +35,12 @@ function Banner(props) {
           </button>
           <button className='Banner__Buttons__Button'>
             <InfoIcon className='Banner__Buttons__Button__InfoIcon' />
-            Saiba Mais
+            <span className='Banner__Buttons__Button__MobileSpan'>
+              Saiba Mais
+            </span>
+            <span className='Banner__Buttons__Button__DesktopSpan'>
+              Mais Informações
+            </span>
           </button>
         </div>
       </div>
