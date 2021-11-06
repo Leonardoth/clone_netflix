@@ -4,3 +4,9 @@
 .Main {
   position: relative;
 }
+
+@media (min-width: 700px) {
+  .Main {
+    padding-left: 80px;
+  }
+}
