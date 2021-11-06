@@ -19,6 +19,7 @@ Mobile First
 - Netflix Header (Desktop only);
 - Get better icons, same stroke width, more uniform.
 - Fix not being able to scroll when hovering shows (Desktop)
+- Clean CSS, maybe find another way of doing the mobile/desktop adaptation.
 - Fix the padding on Desktop? On the Netflix site, everything has a padding (or appears to have) of 100px from the left.
 
 - ~~Add icons for More page~~
