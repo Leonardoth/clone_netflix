@@ -28,6 +28,7 @@
   border: 2px solid $white;
   background-color: rgba($black, 0.2);
   color: $white;
+  display: none;
 }
 
 .Show__Info {
@@ -46,6 +47,9 @@
 }
 
 @media (min-width: 700px) {
+  .Show:hover {
+    cursor: pointer;
+  }
   .Show__Banner {
     width: 220px;
   }
