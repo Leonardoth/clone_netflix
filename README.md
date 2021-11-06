@@ -16,19 +16,20 @@ Mobile First
 - Fix React Warnings
 - Progress bar for shows
 - Cleanup unused assets/code
-- Hide Mobile bar on Desktop
-- Use lorem Picsum for every image.
-
+- Netflix Header (Desktop only);
 - Get better icons, same stroke width, more uniform.
 - Fix not being able to scroll when hovering shows (Desktop)
-- Banners be dinamically, get random banner from array, use it's tags/image, show mobile or full image dependig on device.
+- Fix the padding on Desktop? On the Netflix site, everything has a padding (or appears to have) of 100px from the left.
 
 - ~~Add icons for More page~~
+- ~~Hide Mobile bar on Desktop~~
+- ~~Use lorem Picsum for every image.~~
 - ~~Fix height/scrollable screen Soon~~
 - ~~Add Soon to data, fill dynamically~~
 - ~~Finish desktop lists (too small atm)~~
 - ~~Fix spacing of ::before on Soon screen~~
 - ~~Change Icons for Footer, banner and List~~
+- ~~Banners be dinamically, get random banner from array, use it's tags/image, show mobile or full image dependig on device.~~
 
 ## Bugs:
 
