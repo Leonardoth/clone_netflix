@@ -31,3 +31,9 @@
 .Footer .active {
   opacity: 1;
 }
+
+@media (min-width: 700px) {
+  .Footer {
+    display: none;
+  }
+}
