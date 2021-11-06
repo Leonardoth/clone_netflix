@@ -13,15 +13,14 @@ Mobile First
 
 - Add Fonts
 - Change Favicon
+- Hide scrollbar!
 - Fix React Warnings
 - Progress bar for shows
 - Cleanup unused assets/code
 - Netflix Header (Desktop only);
-- Only show "PlayIcon" in the list being hovered.
 - Get better icons, same stroke width, more uniform.
 - Fix not being able to scroll when hovering shows (Desktop)
 - Clean CSS, maybe find another way of doing the mobile/desktop adaptation.
-- Fix the padding on Desktop? On the Netflix site, everything has a padding (or appears to have) of 100px from the left.
 
 - ~~Add icons for More page~~
 - ~~Hide Mobile bar on Desktop~~
@@ -31,7 +30,9 @@ Mobile First
 - ~~Finish desktop lists (too small atm)~~
 - ~~Fix spacing of ::before on Soon screen~~
 - ~~Change Icons for Footer, banner and List~~
+- ~~Only show "PlayIcon" in the list being hovered.~~
 - ~~Banners be dinamically, get random banner from array, use it's tags/image, show mobile or full image dependig on device.~~
+- ~~Fix the padding on Desktop? On the Netflix site, everything has a padding (or appears to have) of 100px from the left.~~
 
 ## Bugs:
 
