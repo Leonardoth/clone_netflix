@@ -34,7 +34,7 @@ Mobile First
 
 ## Learned:
 
-- Problem: Adding the separators for the tags in the "Soon" page.
+- Challenge: Adding the separators for the tags in the "Soon" page.
 
   - Tried:
 
@@ -45,7 +45,7 @@ Mobile First
     - Creating a new array and inserting the separators, as a new item, without messing with the first array of tags.
     - Used a css selector nth-of-type(2n) to style them, to select every even element, that will always be a separator.
 
-- Problem: Using github pages with React Js
+- Challenge: Using github pages with React Js
 
   - Solution:
 
