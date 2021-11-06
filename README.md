@@ -19,7 +19,7 @@ Mobile First
 - Cleanup unused assets/code
 - Netflix Header (Desktop only);
 - Get better icons, same stroke width, more uniform.
-- Fix not being able to scroll when hovering shows (Desktop)
+- Fix not being able to scroll when hovering shows (Desktop) (Maybe using only css?)
 - Clean CSS, maybe find another way of doing the mobile/desktop adaptation.
 
 - ~~Add icons for More page~~
