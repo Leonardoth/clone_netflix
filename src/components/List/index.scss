@@ -24,3 +24,11 @@
 .List:last-child {
   margin-bottom: 80px;
 }
+
+@media (min-width: 700px) {
+  .List {
+    position: relative;
+    margin-top: -60px;
+    z-index: 2;
+  }
+}

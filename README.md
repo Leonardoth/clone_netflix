@@ -17,6 +17,7 @@ Mobile First
 - Progress bar for shows
 - Cleanup unused assets/code
 - Netflix Header (Desktop only);
+- Only show "PlayIcon" in the list being hovered.
 - Get better icons, same stroke width, more uniform.
 - Fix not being able to scroll when hovering shows (Desktop)
 - Clean CSS, maybe find another way of doing the mobile/desktop adaptation.
