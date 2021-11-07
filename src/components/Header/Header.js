@@ -40,6 +40,35 @@ function Header(props) {
             alt={`${user.name}'s avatar`}
           />
         </button>
+        <details className='Header__MoreOptions'>
+          <summary></summary>
+          <div className='Header__MoreOptions__Div'>
+            {users.map(user =>
+              !user.active ? (
+                <button className='Header__MoreOptions__Div__Button'>
+                  <img
+                    className='Header__MoreOptions__Div__Button__Avatar'
+                    src={user.avatar}
+                    alt={`${user.name}'s avatar`}
+                  />
+                  {user.name}
+                </button>
+              ) : (
+                ''
+              )
+            )}
+            <button className='Header__MoreOptions__Div__Button'>
+              Gerenciar perfis
+            </button>
+            <button className='Header__MoreOptions__Div__Button'>Conta</button>
+            <button className='Header__MoreOptions__Div__Button'>
+              Centro de ajuda
+            </button>
+            <button className='Header__MoreOptions__Div__Button'>
+              Sair da Netflix
+            </button>
+          </div>
+        </details>
       </div>
     </div>
   );
