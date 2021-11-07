@@ -4,8 +4,7 @@
 .Banner {
   position: relative;
   display: flex;
-  height: 300px;
-  align-items: center;
+  height: 400px;
   justify-content: center;
   position: relative;
 }
@@ -25,6 +24,7 @@
 
 .Banner__Info {
   position: relative;
+  bottom: 60px;
   background: linear-gradient(
     180deg,
     rgba(255, 255, 255, 0),
@@ -116,6 +116,7 @@
   }
   .Banner__Info {
     display: flex;
+    bottom: 0px;
     align-items: center;
     height: 100%;
     background: linear-gradient(
