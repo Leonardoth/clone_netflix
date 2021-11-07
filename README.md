@@ -17,13 +17,13 @@ Mobile First
 - Fix React Warnings
 - Progress bar for shows
 - Cleanup unused assets/code
-- Netflix Header (Desktop only);
 - Get better icons, same stroke width, more uniform.
 - Fix not being able to scroll when hovering shows (Desktop) (Maybe using only css?)
 - Clean CSS, maybe find another way of doing the mobile/desktop adaptation.
 
 - ~~Add icons for More page~~
 - ~~Hide Mobile bar on Desktop~~
+- ~~Netflix Header (Desktop only);~~
 - ~~Use lorem Picsum for every image.~~
 - ~~Fix height/scrollable screen Soon~~
 - ~~Add Soon to data, fill dynamically~~
