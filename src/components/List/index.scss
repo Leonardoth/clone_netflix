@@ -15,7 +15,11 @@
 }
 
 .List {
-  margin-top: 10px;
+  position: relative;
+  z-index: 2;
+  margin-top: -50px;
+  font-size: 20px;
+  font-weight: 600;
 }
 .List + .List {
   margin-top: 40px;
@@ -27,11 +31,7 @@
 
 @media (min-width: 700px) {
   .List {
-    font-size: 20px;
-    font-weight: 600;
-    position: relative;
     margin-top: -60px;
-    z-index: 2;
   }
 
   .List:hover {
