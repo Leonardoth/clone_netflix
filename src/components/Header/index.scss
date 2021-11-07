@@ -26,6 +26,7 @@
 .Header__Left,
 .Header__Right {
   display: flex;
+  align-items: center;
 }
 .Header__Right {
   margin-right: 50px;
