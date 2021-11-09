@@ -5,6 +5,11 @@ body {
   height: 100%;
   background-color: rgba($black, 0.95);
   color: $white;
+
+  &::-webkit-scrollbar {
+    opacity: 0;
+    width: 0px;
+  }
 }
 .App {
   text-align: center;
