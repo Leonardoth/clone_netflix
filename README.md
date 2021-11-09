@@ -13,7 +13,6 @@ Mobile First
 
 - Add Fonts
 - Change Favicon
-- Hide scrollbar!
 - Fix React Warnings
 - Progress bar for shows
 - Cleanup unused assets/code
@@ -21,6 +20,7 @@ Mobile First
 - Fix not being able to scroll when hovering shows (Desktop) (Maybe using only css?)
 - Clean CSS, maybe find another way of doing the mobile/desktop adaptation.
 
+- ~~Hide scrollbar!~~
 - ~~Add icons for More page~~
 - ~~Hide Mobile bar on Desktop~~
 - ~~Netflix Header (Desktop only);~~
