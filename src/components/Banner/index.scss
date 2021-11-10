@@ -139,10 +139,11 @@
 
     & button {
       font-size: 16px;
-      font-weight: 600;
       flex-direction: row;
       justify-content: space-evenly;
       align-items: center;
+      font-family: $font-title;
+      border-radius: 3px;
     }
   }
   .Banner__Buttons__Button:first-child {
@@ -164,13 +165,14 @@
     background-color: rgba($grey, 0.6);
     display: flex;
     flex-direction: row;
-    padding: 10px;
+    padding: 11px 10px;
     grid-area: moreInfo;
     width: 200px;
   }
   .Banner__Buttons__Button__InfoIcon {
     fill: none;
     height: 18px;
+    margin: 0;
     & path {
       stroke-width: 4px;
     }
