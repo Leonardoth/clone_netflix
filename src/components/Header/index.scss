@@ -95,6 +95,14 @@
   width: 20px;
   padding-right: 10px;
 }
+
+.Header__MoreOptions__Div__Button a {
+  text-decoration: none;
+  color: white;
+  &:visited {
+    color: white;
+  }
+}
 @media (min-width: 700px) {
   .Header {
     display: flex;

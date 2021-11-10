@@ -65,7 +65,7 @@ function Header(props) {
               Centro de ajuda
             </button>
             <button className='Header__MoreOptions__Div__Button'>
-              Sair da Netflix
+              <a href='https://www.github.com/leonardoth'>Sair da Netflix</a>
             </button>
           </div>
         </details>
