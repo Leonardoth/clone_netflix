@@ -11,12 +11,14 @@ Mobile First
 
 ### Todo:
 
-- Add Fonts
+- Add Fonts (Mobile Pages)
 - Change Favicon
 - Fix React Warnings
+- Add Info icon to ShowInfo (mobile)
 - Progress bar for shows
 - Cleanup unused assets/code
 - Get better icons, same stroke width, more uniform.
+- Add other pages for desktop (series, movies, trending...)
 - Fix not being able to scroll when hovering shows (Desktop) (Maybe using only css?)
 - Clean CSS, maybe find another way of doing the mobile/desktop adaptation.
 
