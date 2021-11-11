@@ -9,6 +9,9 @@
 .Header__Logo {
   width: 150px;
 }
+
+.Header__Button {
+}
 .Header__Button,
 .Header__NotificationButton,
 .Header__User {
@@ -16,7 +19,9 @@
   border: none;
   background: none;
   color: rgba($white, 0.7);
-  font-size: 12px;
+  font-size: 11px;
+  font-family: $font-secondary;
+  font-weight: bold;
 }
 .Header__Button.active {
   color: rgba($white, 1);
@@ -88,7 +93,9 @@
   display: flex;
   border: none;
   background: none;
-  color: white;
+  color: rgba($white, 1);
+  font-family: $font-secondary;
+  font-weight: bold;
 }
 
 .Header__MoreOptions__Div__Button__Avatar {
