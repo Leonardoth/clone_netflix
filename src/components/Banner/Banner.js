@@ -44,6 +44,7 @@ function Banner(props) {
           </button>
         </div>
       </div>
+      <div className='Banner__Overlay' />
     </div>
   );
 }
