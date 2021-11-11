@@ -1,6 +1,6 @@
 const lists = [
   {
-    title: 'Minha Lista',
+    title: 'Minha lista',
     list: [
       {
         image: 'https://picsum.photos/id/1/300/155',
@@ -55,7 +55,7 @@ const lists = [
     ],
   },
   {
-    title: 'Porque você assistiu Venom',
+    title: 'Lançamentos',
     list: [
       {
         image: 'https://picsum.photos/id/1/300/155',
