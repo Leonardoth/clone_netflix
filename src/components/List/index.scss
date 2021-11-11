@@ -3,6 +3,9 @@
 
 .List__Title {
   text-align: left;
+  font-family: $font-primary;
+  font-size: 22px;
+  color: rgba($white, 0.8);
 }
 .List__Titles {
   display: flex;
