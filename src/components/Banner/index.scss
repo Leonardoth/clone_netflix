@@ -55,6 +55,7 @@
   font-weight: bold;
   font-size: 12px !important;
   opacity: 0.8 !important;
+  font-family: $font-secondary;
 }
 
 .Banner__Tags__Tag:nth-of-type(2n) {
@@ -75,9 +76,10 @@
   align-items: center;
   justify-content: space-evenly;
   border: none;
-  font-weight: regular;
+  font-weight: bold;
   color: $white;
   background-color: transparent;
+  font-family: $font-secondary;
 }
 // Watch
 .Banner__Buttons__Button:nth-child(2) {
@@ -85,6 +87,7 @@
   background-color: $white;
   color: $black;
   height: 40px;
+  font-family: $font-primary;
   font-weight: bold;
 }
 .Banner__Buttons__Button__DesktopSpan {
@@ -144,7 +147,7 @@
       flex-direction: row;
       justify-content: space-evenly;
       align-items: center;
-      font-family: $font-title;
+      font-family: $font-primary;
       border-radius: 3px;
     }
   }
