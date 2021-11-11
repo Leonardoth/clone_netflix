@@ -37,6 +37,10 @@
     margin-top: -60px;
   }
 
+  .List__Title {
+    margin-bottom: 15px;
+  }
+
   .List:hover {
     & .Show .Show__PlayButton {
       display: block;
