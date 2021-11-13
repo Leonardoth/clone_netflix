@@ -16,6 +16,7 @@
   grid-area: h4;
   color: rgba($white, 1);
   margin-bottom: 5px;
+  font-family: $font-primary;
 }
 
 .Notification__Image {
@@ -30,13 +31,15 @@
   display: block;
   text-align: left;
   margin-top: 5px;
+  font-family: $font-secondary;
 }
 .Notification__Title {
   grid-area: title;
-  font-size: 16px;
+  font-size: 18px;
+  color: rgba($white, 0.7);
 }
 
 .Notification__Date {
   grid-area: date;
-  font-size: 14px;
+  font-size: 16px;
 }
