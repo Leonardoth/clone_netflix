@@ -11,7 +11,6 @@ Mobile First
 
 ### Todo:
 
-- Fix Soon page on mobile (button varies position on different devices) : grid?
 - Fix React Warnings
 - Add Info icon to ShowInfo (mobile)
 - Progress bar for shows
@@ -34,6 +33,7 @@ Mobile First
 - ~~Fix spacing of ::before on Soon screen~~
 - ~~Change Icons for Footer, banner and List~~
 - ~~Only show "PlayIcon" in the list being hovered.~~
+- ~~Fix Soon page on mobile (button varies position on different devices)~~
 - ~~Banners be dinamically, get random banner from array, use it's tags/image, show mobile or full image dependig on device.~~
 - ~~Fix the padding on Desktop? On the Netflix site, everything has a padding (or appears to have) of 100px from the left.~~
 

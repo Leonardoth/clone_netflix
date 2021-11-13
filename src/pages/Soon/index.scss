@@ -8,6 +8,16 @@
 }
 
 .Soon__Item {
+  display: grid;
+  grid-template-areas:
+    'preview preview'
+    'date button'
+    'title title'
+    'description description'
+    'tags tags';
+  grid-template-columns: 2fr 1fr;
+  align-items: center;
+  gap: 20px;
   margin-top: 5px;
   text-align: left;
   & + .Soon__Item {
@@ -15,35 +25,36 @@
   }
 }
 .Soon__Preview {
+  grid-area: preview;
   width: 100%;
   height: 200px;
   border: none;
   object-fit: cover;
 }
-
+.Soon__Date,
+.Soon__Item__Title,
+.Soon__Item__Description,
+.Soon__Item__Tags {
+  padding-left: 10px;
+}
 .Soon__Date,
 .Soon__Button,
 .Soon__Item__Title,
 .Soon__Item__Description,
 .Soon__Item__Tags {
-  margin: 10px;
   font-family: $font-secondary;
   font-weight: lighter;
   color: rgba($white, 0.5);
 }
 .Soon__Date {
-  display: inline-flex;
+  grid-area: date;
+  display: flex;
   font-size: 16px;
-  vertical-align: super;
-  width: 40%;
-  margin: 0;
-  padding: 0;
 }
 
 .Soon__Button {
-  margin-left: 0px;
-  padding: 0;
-  display: inline-flex;
+  grid-area: button;
+  display: flex;
   align-items: center;
   justify-content: space-evenly;
   background-color: rgba($grey, 1);
@@ -62,19 +73,19 @@
 }
 
 .Soon__Item__Title {
+  grid-area: title;
   display: block;
-  margin-top: 20px;
   font-family: $font-primary;
   color: rgba($white, 1);
 }
 
 .Soon__Item__Description {
+  grid-area: description;
   display: block;
-  margin-top: 20px;
 }
 
 .Soon__Item__Tags {
-  margin-top: 20px;
+  grid-area: tags;
   display: flex;
   align-items: center;
   flex-wrap: wrap;
