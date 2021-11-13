@@ -11,7 +11,6 @@ Mobile First
 
 ### Todo:
 
-- Add Fonts (Mobile Pages)
 - Change Favicon
 - Fix React Warnings
 - Add Info icon to ShowInfo (mobile)
@@ -22,6 +21,7 @@ Mobile First
 - Fix not being able to scroll when hovering shows (Desktop) (Maybe using only css?)
 - Clean CSS, maybe find another way of doing the mobile/desktop adaptation.
 
+- ~~Add Fonts~~
 - ~~Hide scrollbar!~~
 - ~~Add icons for More page~~
 - ~~Hide Mobile bar on Desktop~~
