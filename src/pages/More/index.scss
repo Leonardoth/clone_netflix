@@ -9,7 +9,7 @@
   max-height: 100vh !important;
 }
 .More__Icon {
-  fill: rgba($grey, 1);
+  fill: rgba($white, 0.8);
 }
 .EditIcon {
   margin: 5px;
@@ -19,6 +19,8 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
+  font-size: 18px;
+  width: 100%;
 }
 .More__Button {
   margin: 20px;
@@ -38,10 +40,18 @@
   flex-direction: column;
   color: rgba($white, 0.5);
 }
+.More__Section__Title {
+  font-size: 18px;
+  font-family: $font-secondary;
+  font-weight: bold;
+}
 .More__Section span {
   margin-left: 10px;
 }
 .More__Section button {
+  font-size: 18px;
+  font-family: $font-secondary;
+  font-weight: bold;
   text-align: left;
   border: none;
   background: none;

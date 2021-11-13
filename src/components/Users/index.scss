@@ -1,3 +1,6 @@
+// Utilities
+@import '../../utilities/variables';
+
 .User {
   width: 55px;
   height: 60px;
@@ -16,6 +19,8 @@
 .User__Name {
   display: block;
   opacity: 0.4;
+  font-family: $font-secondary;
+  font-weight: bold;
 }
 
 .active .User__Name {

@@ -24,7 +24,7 @@ function More() {
         </span>
       </button>
       <div className='More__Section'>
-        <span>
+        <span className='More__Section__Title'>
           <NotificationIcon className='More__Icon NotificationIcon' />
           <span>Notificações</span>
         </span>
@@ -33,7 +33,7 @@ function More() {
         })}
       </div>
       <div className='More__Section'>
-        <span>
+        <span className='More__Section__Title'>
           <CheckIcon className='More__Icon CheckIcon' />
           <span>Minha Lista</span>
         </span>
