@@ -74,5 +74,6 @@ Mobile First
 
 - Challenge: Using hover both on web and mobile
   Web is fine, but hover doesn't work as simple on mobile, i wanted to only show the playbutton, when the list is being hovered.
+
   - Solution:
     - By using element:hover, element:active, it'll work both for mobile and for web.
