@@ -11,6 +11,7 @@ Mobile First
 
 ### Todo:
 
+- Fix Soon page on mobile (button varies position on different devices) : grid?
 - Fix React Warnings
 - Add Info icon to ShowInfo (mobile)
 - Progress bar for shows
