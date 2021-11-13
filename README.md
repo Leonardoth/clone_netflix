@@ -71,3 +71,8 @@ Mobile First
 
     - Ran "yarn deploy"
     - Commited the changes and pushed to the repository, it automatically created a branch (gh-pages) and went online on the homepage specified.
+
+- Challenge: Using hover both on web and mobile
+  Web is fine, but hover doesn't work as simple on mobile, i wanted to only show the playbutton, when the list is being hovered.
+  - Solution:
+    - By using element:hover, element:active, it'll work both for mobile and for web.
