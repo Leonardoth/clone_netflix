@@ -32,6 +32,12 @@
   margin-bottom: 80px;
 }
 
+.List__Titles:hover,
+.List__Titles:active {
+  & .Show .Show__PlayButton {
+    display: block;
+  }
+}
 @media (min-width: 700px) {
   .List {
     margin-top: -60px;
@@ -39,11 +45,5 @@
 
   .List__Title {
     margin-bottom: 15px;
-  }
-
-  .List:hover {
-    & .Show .Show__PlayButton {
-      display: block;
-    }
   }
 }
