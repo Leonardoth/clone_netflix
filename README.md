@@ -11,7 +11,6 @@ Mobile First
 
 ### Todo:
 
-- Change Favicon
 - Fix React Warnings
 - Add Info icon to ShowInfo (mobile)
 - Progress bar for shows
@@ -22,6 +21,7 @@ Mobile First
 - Clean CSS, maybe find another way of doing the mobile/desktop adaptation.
 
 - ~~Add Fonts~~
+- ~~Change Favicon~~
 - ~~Hide scrollbar!~~
 - ~~Add icons for More page~~
 - ~~Hide Mobile bar on Desktop~~
