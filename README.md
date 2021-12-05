@@ -56,7 +56,7 @@ Mobile First
 
   - Solution:
 
-    - Installed gh-pages (npm install gh-pages --save-dev)
+    - Installed gh-pages (yarn add gh-pages --save-dev)
     - Added the lines (inside scripts):
 
     ```
